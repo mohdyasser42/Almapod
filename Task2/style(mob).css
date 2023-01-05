@@ -1,0 +1,240 @@
+@media only screen and (min-width: 320px) and (max-width: 479px){
+body{
+    margin-top: 2rem;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+header li{
+    display: none;
+}
+header li:first-child{
+    display: block;
+    margin-left: 27%;
+}
+header li:last-child{
+    display: block;
+    margin-top: 20px;
+    margin-right: 15%;
+}
+/* nav bar for responsive */
+.resp-nav-bar{
+    display: block;
+    position: relative;
+    margin-top: 7rem;
+    background-color: #00a3cc;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    color: #fff;
+}    
+.resp-nav-bar i{
+    float: right;
+    margin-right: 15px;
+    margin-top: 4px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}   
+.resp-nav-bar h3{
+    float: left;
+    padding-left: 10px;
+}
+.nav-resp{
+  display: none;
+  text-align: center;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+.nav-resp li{
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.nav-resp li a{
+  text-decoration: none;
+  color: #fff;
+}
+.nav-resp li a:hover{
+  color: #fff;
+  font-weight: 800;
+}
+.nav-resp li:first-child{
+  margin: 0;
+}
+.nav-resp li:last-child{
+  margin: 0;
+}
+.home{
+    background-position: center;
+}
+.home-contents{
+    top: 25%;
+}
+.welcome{
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+}
+.wlcm-text{
+    width: 100%;
+    margin-bottom: 3rem;
+}
+.wlcm-img{
+    width: 100%;
+}
+.underline::after{
+    width: 15vh;
+}
+.underline::before{
+    width: 15vh;
+}
+.mid-box{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.underline{
+    width: 18%;
+}
+.underline2::after{
+    width: 15vh;
+}
+.underline2::before{
+    width: 15vh;
+}
+.mid-box2{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.underline2{
+    width: 18%;
+}
+.srv-box{
+   margin: 0;
+    display: block;
+}
+.srv-box div{
+    width: 100%;
+}
+.status{
+    padding-top: 1rem;
+    background-image: none;
+    height: 100%;
+    background-color: #333;
+    padding-bottom: 2rem;
+    border-radius: 20px;
+}
+.stat-container{
+    text-align: center;
+    display: block;
+    
+}
+.status-box{
+    margin-top: 2rem;
+    width: 100%;
+}
+.status-box h2{
+    margin-top: 0rem;
+    padding-top: 0.5rem;
+}
+.container-port{
+    margin-left: 0;
+    margin-right: 0;
+}
+.port-text p{
+    width: 100%;
+    left: 0;
+}
+.team-container{
+    margin-left: 0;
+    margin-right: 0;
+}
+.team-text p{
+    width: 100%;
+    left: 0;
+}
+.team-img img{
+    width: 340px;
+}
+
+  .box2{
+      margin-right: 0.5rem;
+      width: 100%px;
+  }
+  
+  .profile img{
+      width: 70px;
+      height: 70px;
+  }
+  .profile{
+      
+      line-height: 20px;
+  }
+  .container-blog{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .blog-text p{
+    width: 100%;
+    left: 0;   
+  }
+  .blog-card{
+    display: block;
+  }
+  .blog-card div{
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+  .partners{
+    height: 30rem;
+  }
+  .partners div{
+    margin-top: 3rem;
+  }
+  .partners div img{
+    height: 50px;
+  }
+  .final-container{
+    display: block;
+  }
+  .info{
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .company{
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+  .support{
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .insta{
+    width: 100%;
+  }
+  .insta h1{
+    text-align: center;
+  }
+  footer{
+    height: 100%;
+    border-radius: 15px;
+    width: 100%;
+  }
+  .cpy-container{
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+  .cpy-container p{
+    float: none;
+  }
+  .foot-media{
+    float: none;
+    padding-bottom: 5px;
+  }
+
+
+
+
+
+}

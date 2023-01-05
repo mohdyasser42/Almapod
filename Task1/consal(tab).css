@@ -1,0 +1,148 @@
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container-top{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+  }
+  .top-link{
+    margin-left: 0;
+  }
+  .media-link{
+    margin-right: 0;
+  }
+  .nav-bar ul{
+    margin-right: 3rem;
+    
+  }
+  .nav-bar ul li{
+    font-size: 14px;
+    margin-left: 1rem;
+  }
+  .logo{
+    margin-left: 6%;
+  }
+  .slider img{
+    margin-top: -50px;
+    object-fit: none;
+    object-position: center;
+    height: 550px;
+    margin-bottom: -5rem;
+  }
+  .img-text{
+    top: 35%;
+    width: 100%;
+    margin-top: -2rem;
+  }
+  .slide-btn{
+    margin-top: 6rem;
+  }
+  .about-us{
+    display: block;
+  }
+  .about-text{
+    width: auto;
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+  .about-img{
+    position: relative;
+    width: 100%;
+    height: 510px;
+    right: 0;
+    margin-top: 3rem;
+  }
+  .about-img img{
+    margin-left: 6%;
+    width: 720px;
+  }
+  .about-stats{
+    margin: 5rem 2% 1.5rem 6%;
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
+  }
+  .stats{
+    width: 45%;
+    margin-bottom: 2rem;
+  }
+  .serv-sample{
+    display: flex;
+    margin-left: 6%;
+  }
+  .card{
+    width: 45%;
+  }
+  .lp-img{
+    display: flex;
+    margin-left: 6%;
+    margin-right: 6%;
+    justify-content:flex-start;
+  }
+  .lp-img img{
+    padding-right: 2rem;
+    height: 350px;
+  }
+  .p-img-3{
+    display: none;
+  }
+  #testimonal3{
+    display: none;
+  }
+  .testimonal{
+    width: 100%;
+  }
+  .testimonal2{
+    width: 100%;
+  }
+  .container-blog{
+    margin-left: 6%;
+    margin-right: 6%;
+    
+  }
+  .post-area{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+  }
+  .post{
+    width: 45%;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+  }
+  #logos-tab{
+    display: none;
+  }
+  .ptnrs-logos img{
+    width: 10rem;
+  }
+  .container-foot{
+    flex-wrap: wrap;
+  }
+  .foot-text{
+    width: 47%;
+    margin-bottom: 4rem;
+  }
+  .recent-post{
+    width: 47%;
+    margin-bottom: 4rem;
+  }
+  .popular-tags{
+    width: 47%;
+    margin-left: 0;
+  }
+  .contact-us{
+    width: 47%;
+  }
+
+
+}

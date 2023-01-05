@@ -1,0 +1,172 @@
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    header li{
+      display: none;
+  }
+  header li:first-child{
+      display: block;
+      margin-left: 0%;
+  }
+  header li:last-child{
+      display: block;
+      margin-top: 0px;
+      margin-right: 0%;
+  }
+  #search input{
+    padding: 5px 8px;
+  }
+  /* nav bar for responsive */
+  .resp-nav-bar{
+      display: block;
+      position: relative;
+      margin-top: 4rem;
+      background-color: #00a3cc;
+      width: 100%;
+      height: 100%;
+      border-radius: 20px;
+      color: #fff;
+  }    
+  .resp-nav-bar i{
+      float: right;
+      margin-right: 15px;
+      margin-top: 4px;
+      font-size: 18px;
+      color: #fff;
+      cursor: pointer;
+  }   
+  .resp-nav-bar h3{
+      float: left;
+      padding-left: 10px;
+  }
+  .nav-resp{
+    display: none;
+    text-align: center;
+    position: relative;
+    padding-bottom: 0.5rem;
+  }
+  .nav-resp li{
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  .nav-resp li a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .nav-resp li a:hover{
+    color: #fff;
+    font-weight: 800;
+  }
+  .nav-resp li:first-child{
+    margin: 0;
+  }
+  .nav-resp li:last-child{
+    margin: 0;
+  }
+  .wlcm-text{
+    width: 60%;
+  }
+  .wlcm-img{
+    width: 38%;
+  }
+  .underline{
+    width: 18%;
+  }
+  .underline::after{
+    width: 10vh;
+  }
+  .underline::before{
+    width: 10vh;
+  }
+  .mid-box{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .underline2{
+    width: 7%;
+  }
+  .underline2::after{
+    width: 10vh;
+  }
+  .underline2::before{
+    width: 10vh;
+  }
+  .mid-box2{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .srv-box div p{
+    text-align: justify;
+  }
+  .srv-box div h1{
+    font-size: 17px;
+  }
+  .port-text p{
+    width: 100%;
+    left: 0;
+  }
+  .port-img img{
+    padding-bottom: 0rem;
+  }
+  .team-text p{
+    width: 100%;
+    left: 0;
+  }
+  .blog-text p{
+    width: 100%;
+    left: 0;
+  }
+  .blog-card div p{
+    text-align: justify;
+  }
+  .partners{
+    height: 100%;
+  }
+  .partners div{
+    margin-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .final-container{
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+  .info{
+    width: 28%;
+  }
+  .info p i{
+    margin-right: 0.5rem;
+  }
+  .company{
+    margin-left: 2rem;
+  }
+  .insta-pics div a img{
+    margin-bottom: 0.5rem;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
