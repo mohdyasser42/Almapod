@@ -1,17 +1,17 @@
 $(document).ready(function(){
     $("#exit").click(function(){
-      $(".promo").hide();
+      $(".promo").slideUp();
     });
 });
 
 $(document).ready(function(){
   $("#nav-icon1").click(function(){
-    $(".nav-slide").show();
+    $(".nav-slide").slideDown();
     $("#nav-icon1").hide();
     $("#nav-icon2").show();
   });
   $("#nav-icon2").click(function(){
-    $(".nav-slide").hide();
+    $(".nav-slide").slideUp();
     $("#nav-icon1").show();
     $("#nav-icon2").hide();
   });

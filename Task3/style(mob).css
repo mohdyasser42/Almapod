@@ -75,11 +75,15 @@
     }
 
     .img-container div{
-        width: 100%;
+        width: 95%;
+        margin-left: 2.5%;
         padding-bottom: 3rem;
     }
     .img-container{
         display: block;
+    }
+    .img-container div img{
+        border-radius: 15px;
     }
     .banner{
         margin-top: 4rem;

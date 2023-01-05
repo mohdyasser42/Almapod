@@ -228,6 +228,9 @@ nav li:nth-last-child(4){
 .service-icon i{
     color: #fff;
 }
+.service-icon i img{ 
+    margin-top: -1rem;
+}
 .service-text{
     padding-left: 1rem;
     color: #fff;
